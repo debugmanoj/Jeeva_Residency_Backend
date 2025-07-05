@@ -22,3 +22,6 @@ app.use("/v1",versionOneRouteIndex)
 app.listen(PORT, ()=>{
 	console.log('Express app running on port ' + (process.env.PORT))
 });
+
+
+export default app;
